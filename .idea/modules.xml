@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Courses/.idea/Courses.iml" filepath="$PROJECT_DIR$/../Courses/.idea/Courses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Part 2/.idea/Part 2.iml" filepath="$PROJECT_DIR$/../Part 2/.idea/Part 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Part 2 Offline.iml" filepath="$PROJECT_DIR$/.idea/Part 2 Offline.iml" />
+      <module fileurl="file://H:/Github/scblog/.idea/scblog.iml" filepath="H:/Github/scblog/.idea/scblog.iml" />
+    </modules>
+  </component>
+</project>
