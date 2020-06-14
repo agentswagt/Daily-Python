@@ -2,6 +2,7 @@ import random
 class Car:
 
     import random
+    
 
     def __init__(self, name, maf, color, year, cc):
         self.name = name
@@ -22,14 +23,17 @@ class Car:
         Brake = input("Do you want to Brake?: ")
         if Brake in ["Yes", "yes", "brake", "Brake"]:
             print("Car is stoping")
+            
 
         else:
             print("Car is still runing")
 
     def drive(self):
+        
         print("Please keep driving")
 
     def turn(self):
+        
         x = input("Which side do you want to go?: ")
         if x in ["Left", "left"]:
             print(f"{self.name} is turning Left")
@@ -37,7 +41,7 @@ class Car:
             print(f"{self.name} is turning Right")
     def cgear(self):
 
-
+        
         Cgear = random.randint(1, 5)
         print("Current gear:", Cgear)
         q = input("Please select gear: ")
