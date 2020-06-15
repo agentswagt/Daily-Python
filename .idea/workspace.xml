@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870a4a98-f28b-46be-9fc0-c5ce10da4a87" name="Default Changelist" comment="">
-      <change beforePath="H:/Github/scblog/.idea/scblog.iml" beforeDir="false" afterPath="H:/Github/scblog/.idea/scblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Part 2 Offline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Part 2 Offline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page41 and Exerciise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page41 and Exerciise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Part 2/.idea/Part 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part 2/.idea/Part 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web craw.py" beforeDir="false" afterPath="$PROJECT_DIR$/web craw.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/req.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web craw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="465">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arguments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,10 +80,15 @@
         <option value="$PROJECT_DIR$/Page41 and Exerciise.py" />
         <option value="$PROJECT_DIR$/requests.py" />
         <option value="$PROJECT_DIR$/req.py" />
+        <option value="$PROJECT_DIR$/Source_Code.html" />
+        <option value="$PROJECT_DIR$/../Part 2/Image Downloader/imgd.py" />
+        <option value="$PROJECT_DIR$/web craw.py" />
+        <option value="$PROJECT_DIR$/add.py" />
+        <option value="$PROJECT_DIR$/arguments.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="32" />
     <option name="y" value="120" />
     <option name="width" value="1346" />
@@ -97,6 +110,15 @@
               <item name="Part 2 Offline" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part 2 Offline" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Part 2 Offline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part 2 Offline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Website_Source_Code_Retriver" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -107,7 +129,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="C:/Program Files/Python38-32" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.req">
+  <component name="RunManager" selected="Python.Page41 and Exerciise">
     <configuration name="Page41 and Exerciise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Part 2 Offline" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page39 box1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Part 2 Offline" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page39 box1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,19 +186,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page39 box2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Part 2 Offline" />
+    <configuration name="imgd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Part 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Part 2/Image Downloader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page39 box2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Part 2/Image Downloader/imgd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="req" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="req" type="PythonConfigurationType" factoryName="Python">
       <module name="Part 2 Offline" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,20 +249,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web craw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Part 2 Offline" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web craw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.page39 box1" />
-      <item itemvalue="Python.page39 box2" />
+      <item itemvalue="Python.req" />
       <item itemvalue="Python.Page41 and Exerciise" />
       <item itemvalue="Python.requests" />
-      <item itemvalue="Python.req" />
+      <item itemvalue="Python.web craw" />
+      <item itemvalue="Python.imgd" />
+      <item itemvalue="Python.add" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.req" />
-        <item itemvalue="Python.requests" />
         <item itemvalue="Python.Page41 and Exerciise" />
-        <item itemvalue="Python.page39 box2" />
-        <item itemvalue="Python.page39 box1" />
+        <item itemvalue="Python.add" />
+        <item itemvalue="Python.web craw" />
+        <item itemvalue="Python.imgd" />
+        <item itemvalue="Python.requests" />
       </list>
     </recent_temporary>
   </component>
@@ -261,35 +305,28 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4893617" visible="true" weight="0.24851191" />
-      <window_info id="Structure" order="1" sideWeight="0.5106383" side_tool="true" visible="true" weight="0.24851191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4830918" visible="true" weight="0.13086233" />
+      <window_info id="Structure" order="1" sideWeight="0.5169082" side_tool="true" visible="true" weight="0.13086233" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.3188406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.3188406" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33655393" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50074404" side_tool="true" weight="0.3188406" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Run" order="3" sideWeight="0.49925596" weight="0.30030257" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WarmUp.py" />
     <entry file="file://$PROJECT_DIR$/Fibonacci.py" />
-    <entry file="file://$PROJECT_DIR$/program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://H:/Github/scblog/routine.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -314,13 +351,6 @@
     <entry file="file://H:/Github/scblog/Courses/Form/index.html" />
     <entry file="file://H:/Github/scblog/Courses/form.html" />
     <entry file="file://H:/Github/scblog/Courses/python1.html" />
-    <entry file="file://$PROJECT_DIR$/trial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Part 2/WarmUp.py" />
     <entry file="file://H:/Github/scblog/default.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -481,25 +511,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page39 box2.py">
+    <entry file="file://$PROJECT_DIR$/requests.py" />
+    <entry file="file://$PROJECT_DIR$/shagato.png" />
+    <entry file="file://$PROJECT_DIR$/Source_Code.html" />
+    <entry file="file://$PROJECT_DIR$/routine.png" />
+    <entry file="file://$PROJECT_DIR$/Rifat.jpg" />
+    <entry file="file://$PROJECT_DIR$/../Part 2/Website_Source_Code_Retriver/scre.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state>
+          <caret selection-end-line="8" />
+          <folding>
+            <element signature="e#681#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Part 2/Image Downloader/imgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Part 2/Website_Source_Code_Retriver/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page41 and Exerciise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-413">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requests.py" />
     <entry file="file://$PROJECT_DIR$/req.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="1185">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web craw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page39 box2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
