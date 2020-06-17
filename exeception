@@ -13,6 +13,7 @@ print(div(3, 0))
 print(div(9, 3))
 print(div("12", 3))
 """
+"""
 import io
 file_name = "file.txt"
 mode = "r"
@@ -25,3 +26,4 @@ except FileNotFoundError:
     print(f"{file_name} is not found. Please check if the file name's is correct")
 except io.UnsupportedOperation:
     print(f"Are u sure? {file_name} is readable?")
+"""
