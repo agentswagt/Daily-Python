@@ -26,7 +26,7 @@ class Car:
             
 
         else:
-            print("Car is still runing")
+            print("Car is still running")
 
     def drive(self):
         
