@@ -17,4 +17,26 @@ with open("file.txt", "w") as fp:
 
 
 """
+"""
 
+with open("file.txt", "r") as f:
+    lines = f.readline()
+    print(lines)
+    for line in lines:
+        print(line)
+        
+"""
+"""
+with open("file.txt", "r") as fp:
+    for line in fp:
+        print(line)
+
+"""
+"""
+with open("file.txt", "r") as fp:
+    print(fp.read())
+"""
+"""
+with open("file.txt", "w") as fp:
+    print(fp.read())
+"""
