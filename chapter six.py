@@ -25,11 +25,8 @@ class Vehicle:
 class Car(Vehicle):
     """Car Class"""
     def __int__(self, name, manufacturer, color, year):
-        self.name = name
-        self.manufacturer = manufacturer
-        self.color = color
-        self.year = 2017
-        self.wheels = 4
+        print("Creating A Car")
+        super().__init__(name, manufacturer, color)
         print(f"A new Car has been created. name: {self.name}")
         print(f"It has {self.wheels} wheels")
         print(f"This Car Was Built in {self.year}")
@@ -40,8 +37,14 @@ class Car(Vehicle):
     def turn(self, direction):
         print(f"Turning {self.name} to {direction}")
 
-
-
+class Motorcycle(Vehicle):
+    """MotorCycle Class"""
+    def __init__(self, name, manufacturer, color):
+        print("Creating a Motor Cycle")
+        super(Motorcycle, self).__init__(name, manufacturer, color)
+        self.year = 2017
+        self.color = "red"
+        print(f"The Motorcycle's Name:{self.name}\n Manufacturer:{self.manufacturer}\n Color: {self.color}")
 if __name__ == "__main__":
     """
     v1 = Vehicle("Fusion 110 Ex", "Walton", "Black")
@@ -57,8 +60,5 @@ if __name__ == "__main__":
     v2.brake()
     v3.brake()
     """
-    c =Car("Mustang 5.0 GT Coupe", "Ford", "Red")
-    v = Vehicle("Softail Delux", "Harley Davidson", "Blue")
 
-    c.turn("right")
-    v.turn("right")
+    z = Motorcycle("Shagato", "Shagato 1", "Shagato 2")

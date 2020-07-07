@@ -1,17 +1,28 @@
-import requests
-import sys
-
-base_url = "http://cpbook.subeen.com/p/download"
-
-info_dt = {"name": "Subeen", "email": "book@subeen.com", "country": "Bangladesh"}
-
-url = base_url + "process.php"
-
-response = requests.post(url, data=info_dt)
-
-
-
-with open("cpbook.pdf", "wb") as fp:
-    fp.write(response.content)
-print("Book Download Completed!")
-
+#importing the module 
+from pytube import YouTube 
+  
+#where to save 
+SAVE_PATH = "E:/" #to_do 
+  
+#link of the video to be downloaded 
+link="https://www.youtube.com/watch?v=xWOoBJUqlbI"
+  
+try: 
+    #object creation using YouTube which was imported in the beginning 
+    yt = YouTube(link) 
+except: 
+    print("Connection Error") #to handle exception 
+  
+#filters out all the files with "mp4" extension 
+mp4files = yt.filter('mp4') 
+  
+yt.set_filename('GeeksforGeeks Video') #to set the name of the file 
+  
+#get the video with the extension and resolution passed in the get() function 
+d_video = yt.get(mp4files[-1].extension,mp4files[-1].resolution) 
+try: 
+    #downloading the video 
+    d_video.download(SAVE_PATH) 
+except: 
+    print("Some Error!") 
+print('Task Completed!') 

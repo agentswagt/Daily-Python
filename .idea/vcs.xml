@@ -4,5 +4,6 @@
     <mapping directory="H:/Github/scblog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Part 2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exploit" vcs="Git" />
   </component>
 </project>
