@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 1</title>
+    # |ax + by + c| / root[a*a + b*b]<br>
+print("""<br>
+-----------------------------------------------------<br>
+(3,2) বিন্দু হতে 4x-3y-10 = 0 রেখার লম্ব দূরত্ব নির্নয় কর।<br>
+-----------------------------------------------------""")<br>
+
+
+x = 3<br>
+y = -2<br>
+
+eq_sl_str = "4x-3y-10=0"<br>
+eq_sl = 4*int(x) - 3*int(y) - 10<br>
+if eq_sl < 0:<br>
+    eq_slP = eq_sl - 2*eq_sl<br>
+elif eq_sl > 0:<br>
+    eq_slP = eq_sl<br>
+import  math<br>
+
+a = int(eq_sl_str[0])<br>
+b = int(eq_sl_str[3])<br>
+xy = a*a + b*b<br>
+
+
+xxy = math.sqrt(xy)<br>
+result = eq_slP / math.sqrt(xy)<br>
+
+from decimal import Decimal<br>
+from fractions import Fraction<br>
+print(f"""<br>
+|---------------------------------------------------|<br>
+|Answer: {Fraction(Decimal(str(result)))}           |<br>
+|Answer: {result}                                   |<br>
+|---------------------------------------------------|""")<br>
+
+
+
+</head>
+<body>
+
+</body>
+</html>
