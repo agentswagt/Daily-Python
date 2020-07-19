@@ -16,7 +16,7 @@ if option == "1":
     import os
     os.system("sh submit.sh")
 elif option == "2":
-    x = "https://scblog.netlify.app/clip.html"
+    x = "https://scblog.netlify.app/clipboard.html"
 
     clip_b = requests.get(x)
 
