@@ -1,3 +1,4 @@
+print("importing module")
 import requests
 
 terminate = False
